@@ -1,6 +1,9 @@
-# Test
-[天空上三公尺](https://pan.baidu.com/s/1jDbMQtAzsRyhDfNGjpuf3Q)提取码：0p9l
+# HuxBlog Boilerplate
 
+##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
 
-[view on webSite](https://aver58.github.io/Blog/)
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+
+#### [View Live Hux Blog &rarr;](http://huangxuan.me)
+
+## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
