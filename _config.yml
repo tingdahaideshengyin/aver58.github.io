@@ -3,11 +3,11 @@ title: Zero Blog
 SEOTitle: 曾志伟的博客 | Zero Blog
 header-img: img/home-bg.jpg
 email: 308164213@qq.com
-description: ""
+description: "茶能醉我何须，书能香我不须花。"
 keyword: ""
-url: "http://huangxuan.me"              # your host, for absolute URL
+url: "aver58.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
-
+#timezone: CN
 
 
 # SNS settings
@@ -24,7 +24,7 @@ github_username:    Aver58
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -32,9 +32,9 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-#gems: [jekyll-paginate]
-plugins:
-  - jekyll-feed
+plugins: [jekyll-paginate]
+#plugins:
+#  - jekyll-feed
 
 
 # Markdown settings
@@ -51,9 +51,9 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: zeroblog
+duoshuo_username: 曾志伟
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -62,8 +62,8 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Baidu Analytics
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
@@ -86,16 +86,13 @@ friends: [
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "Foo",
-        href: "#"
+        title: "雨松MOMO的Blog",
+        href: "http://www.xuanyusong.com/"
     },{
-        title: "Bar",
-        href: "#"
+        title: "云风的Blog",
+        href: "http://blog.codingnow.com/"
     },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Kanglai的Blog",
+        href: "http://qiankanglai.me/"
     }
 ]

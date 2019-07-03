@@ -1,0 +1,87 @@
+---
+title: "Portfolio"
+layout: default
+description: "What I did"
+header-img: "img/portfolio-bg.jpg"
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<head>
+
+<style type="text/css">
+p {
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: justify;
+    line-height: 25px;
+}
+</style>
+
+</head>
+
+<!-- Chinese Version -->
+<div class="zh">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class = "panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>项目</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="list-group">
+                        <!--<li class="list-group-item">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-md-4 col-xs-12 center">-->
+                                    <!--<img src="/img/in-portfolio/blur-war.jpg" class="img-thumbnail">-->
+                                <!--</div>-->
+                                <!--<div class="col-md-8 col-xs-12 post-container">-->
+                                    <!--<p><b>手游《蔚蓝战争》的海水渲染</b></p>-->
+                                    <!--<p><i>开发工具：Unity3D, Shader, C#</i></p>-->
+                                    <!--<p>2016年暑期在腾讯上海北极光引擎组实习期间支持的项目，为手游《蔚蓝战争》提供渲染技术支持，包括实现较高效率的战斗场景大范围的卡通海水渲染以及相关效果实现（如反射和焦散等）、天气变换系统和剪影特效等。</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    function onLanChange(index){
+        if(index == 0){
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }else{
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        }
+    }
+    onLanChange(0);
+</script>
