@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: 308164213@qq.com
 description: "茶能醉我何须，书能香我不须花。"
 keyword: ""
-url: "aver58.github.io/"              # your host, for absolute URL
-baseurl: "ZeroBlog/"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "aver58.github.io/ZeroBlog"              # your host, for absolute URL
+baseurl: "/ZeroBlog"         # for example, '/blog' if your blog hosted on 'host/blog'
 #timezone: CN
 
 
