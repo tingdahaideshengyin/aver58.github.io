@@ -2,11 +2,11 @@
 layout:     post
 title:      "Welcome to Zero Blog"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2019-07-03 16:00:00
+date:       2019-07-02 12:00:00
 author:     "Zero"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Life
+    - 生活
 ---
 
 # 学习使我快乐
