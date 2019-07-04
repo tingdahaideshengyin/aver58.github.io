@@ -1,5 +1,5 @@
 # Zero Blog
-[Zero Blog](https://aver58.github.io/ZeroBlog/)
+[Zero Blog](https://aver58.github.io/)
 
 使用说明：
 1. 修改_config.yml文件的基本信息
