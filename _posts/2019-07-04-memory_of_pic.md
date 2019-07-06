@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "图片所占用的内存 -- 简单学习"
+title:      "图片所占用的内存"
 subtitle:   "操作系统入门"
 date:       2019-07-04 16:00:00
 author:     "Zero"
