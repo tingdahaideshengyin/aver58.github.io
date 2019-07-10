@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ---
 layout:     post
@@ -30,3 +30,10 @@ tags:
 1. float3 UnityObjectToWorldNormal ( float3 norm )    //把法线方向 模型空间==》世界空间；
 2. float3 UnityObjectToWorldDir ( float3 dir )      //把方向 模型空间==》世界 空间；
 3. float3 UnityWorldToObjectDir ( float3 dir )     //把方向 世界空间==》模型空间；
+
+
+### Data结构在UnityCG.cginc　
+appdata_base：顶点着色器输入与位置,法线,纹理坐标
+appdata_tan：顶点着色器输入与位置，法线，切线，一个纹理坐标
+appdata_full：顶点着色器输入与位置，法线，切线，顶点颜色和两个纹理坐标
+appdata_img：顶点着色器输入与坐标和一个纹理坐标
