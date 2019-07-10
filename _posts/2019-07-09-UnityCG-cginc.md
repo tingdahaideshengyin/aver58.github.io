@@ -1,7 +1,4 @@
 ---
-published: true
----
----
 layout:     post
 title:      "Unity中UnityCG.cginc中常用的函数"
 subtitle:   "Shader入门"
@@ -11,7 +8,6 @@ header-img: "img/post-bg-2015.jpg"
 tags:
     - Shader
 ---
-
 
 # Unity中UnityCG.cginc中常用的函数
 
@@ -33,7 +29,7 @@ tags:
 
 
 ### Data结构在UnityCG.cginc　
-appdata_base：顶点着色器输入与位置,法线,纹理坐标
-appdata_tan：顶点着色器输入与位置，法线，切线，一个纹理坐标
-appdata_full：顶点着色器输入与位置，法线，切线，顶点颜色和两个纹理坐标
-appdata_img：顶点着色器输入与坐标和一个纹理坐标
+1. appdata_base：顶点着色器输入与位置,法线,纹理坐标
+1. appdata_tan：顶点着色器输入与位置，法线，切线，一个纹理坐标
+1. appdata_full：顶点着色器输入与位置，法线，切线，顶点颜色和两个纹理坐标
+1. appdata_img：顶点着色器输入与坐标和一个纹理坐标
