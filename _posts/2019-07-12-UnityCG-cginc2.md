@@ -129,4 +129,13 @@ inline float3 UnityWorldToObjectDir( in float3 dir )
 }
 ```
 
+### TRANSFORM_TEX
+```
+// 缩放和偏移2D纹理的UV，对纹理坐标进行变换，对应材质面板的Tiling和Offset调节项
+// Transforms 2D UV by scale/bias property
+#define TRANSFORM_TEX(tex,name) (tex.xy * name##_ST.xy + name##_ST.zw)
+```
+
+
+
 ## Data结构在UnityCG.cginc

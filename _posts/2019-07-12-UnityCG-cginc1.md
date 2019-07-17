@@ -32,6 +32,12 @@ float3 UnityObjectToWorldNormal ( float3 norm )     |法线方向矢量 模型�
 float3 UnityObjectToWorldDir ( float3 dir )      |方向矢量 模型空间==》世界空间
 float3 UnityWorldToObjectDir ( float3 dir )     |方向矢量 世界空间==》模型空间
 
+# 顶点计算
+顶点计算 | detail
+---|---
+TRANSFORM_TEX     | 缩放和偏移2D纹理的UV，对纹理坐标进行变换，对应材质面板的Tiling和Offset调节项
+
+
 ## Data结构在UnityCG.cginc
 Data结构在UnityCG.cginc　 | detail
 ---|---
