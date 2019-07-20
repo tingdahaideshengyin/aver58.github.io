@@ -31,6 +31,7 @@ float3 ObjSpaceLightDir ( float4 v )    	 |(ForwardBase Only,not normalized)�
 float3 UnityObjectToWorldNormal ( float3 norm )     |法线方向矢量 模型空间==》世界空间
 float3 UnityObjectToWorldDir ( float3 dir )      |方向矢量 模型空间==》世界空间
 float3 UnityWorldToObjectDir ( float3 dir )     |方向矢量 世界空间==》模型空间
+TANGENT_SPACE_ROTATION | 得到模型空间==》切线空间的变化矩阵rotation
 
 # 顶点计算
 顶点计算 | detail
