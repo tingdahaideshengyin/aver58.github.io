@@ -170,6 +170,17 @@ inline fixed3 UnpackNormal(fixed4 packednormal)
 }
 ```
 
+### clip
+```
+	// Alpha test
+	clip (texColor.a - _Cutoff);
+	// Equal to 
+    // if ((texColor.a - _Cutoff) < 0.0) {
+    // 	    discard;
+    // }
+```
+
+
 
 
 
