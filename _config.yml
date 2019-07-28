@@ -10,15 +10,15 @@
 
 # 阅读处理
 #safe:         false
-encoding: 'utf-8'
-keep_files:   [".git", ".svn"]
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+#encoding: 'utf-8'
+#keep_files: [".git", ".svn"]
+#markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # 内容过滤
 #show_drafts: null
 #limit_posts: 0
 #用将来的日期发布文章
-future:      true
+#future: true
 #unpublished: false
 
 # Site settings
@@ -60,7 +60,7 @@ markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 #  为相关文章生成索引
-lsi:         false
+#lsi:         false
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -76,10 +76,11 @@ duoshuo_username: 曾志伟
 # Share component is depend on Comment so we can NOT use share only.
 #duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
+livere_uid: MTAyMC8yODg4Mi81NDUy
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 207a182a0a79e8a76bfd02381045166f
 # Google Analytics
 #ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 #ga_domain: huangxuan.me
