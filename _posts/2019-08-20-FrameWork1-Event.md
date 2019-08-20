@@ -103,6 +103,8 @@ public class BattleExample : MonoBehaviour {
 #### Lua层实现事件系统 
 直接上代码
 
+1. 用字典维护了一张注册信息列表，记录注册对象target和触发回调callBack
+
 ```
 -- GameMsg消息定义类
 local MESSAGE = 0
