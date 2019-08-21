@@ -30,7 +30,8 @@ tags:
     1. 定义一种委托类型 
     1. 声明一个该类型的委托函数
     1. 通过声明的委托调用函数执行相关的操作
-```C#
+
+```
 using UnityEngine;
 
 public class DelegateExample : MonoBehaviour {
@@ -61,8 +62,11 @@ public class DelegateExample : MonoBehaviour {
     {
         print("Print double number: " + num*2);
     }
+	
 }
+
 ```
+
 通过运行上面的实例，我们发现someEvent每次赋值，就把指针指向不同的函数，可以得到不同的结果。
 1. 如果说delegate是个类，那event就是这个委托的实例，
     比如delegate是指做任何事，那event就可以是具体的一件事，比如吃饭、洗澡等真正的事。
@@ -71,6 +75,7 @@ public class DelegateExample : MonoBehaviour {
 >- 这时候如果直接取到B对象来调用，就会产生严重耦合，A和B模块就被我们黏到了一起，分不开了。
 >- 为了解耦合，我们可以在角色模块监听用户的点击事件，然后战斗模块发出用户点击事件，角色模块收到消息，
 就可以完成大招的释放，这样就能把A、B模块分开了。
+
 ```C#
 
 using UnityEngine;
@@ -226,3 +231,4 @@ end
 return GameMsg
 
 ```
+
