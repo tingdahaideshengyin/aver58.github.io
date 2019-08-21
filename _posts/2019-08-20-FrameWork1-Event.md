@@ -128,6 +128,9 @@ GMsgDef = {
     SOCKET_TCP_DATA = GetID(),-- 网络层消息
 }
 
+```
+
+```
 
 -- GameMsg类
 local GameMsg={}
