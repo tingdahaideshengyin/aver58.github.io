@@ -109,7 +109,7 @@ public class BattleExample{
 ```
 
 #### Lua层实现消息系统
-直接上代码（md支持不太好，一直页面崩溃）
+直接上代码（md支持不太好，一直页面崩溃）[详情可以看我同事写的文章](https://www.cnblogs.com/wang-jin-fu/p/11255831.html)
 
 1. 用字典维护了一张注册信息列表Messagelisteners，记录注册对象target和触发回调callBack
 2. 注册事件时候，需要在GMsgDef定义自己的事件名，然后调用GameMsg.AddMessage(msgName, target, callBack)来注册事件
