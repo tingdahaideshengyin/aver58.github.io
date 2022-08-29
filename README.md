@@ -1,5 +1,5 @@
 # Zero Blog
-[Zero Blog](https://aver58.github.io/)
+[Zero Blog](https://tingdahaideshengyin.github.io/)
 
 使用说明：
 1. 这个项目fork走
